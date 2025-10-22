@@ -24,7 +24,7 @@ const NavItems = ({initialStocks}:{initialStocks : StockWithWatchlistStatus[]}) 
                     <li key="search-trigger">
                         <SearchCommand
                             renderAs = "text"
-                            label="search"
+                            label="Search"
                             initialStocks={initialStocks}
                         />
                     </li>

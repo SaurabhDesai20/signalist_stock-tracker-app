@@ -55,7 +55,7 @@ export default function SearchCommand ({renderAs= 'button' , label='Add stocks' 
         debouncedSearch();
     }, [searchTerm]);
 
-    const handleSelectStock = (value: string) => {
+    const handleSelectStock = () => {
         setOpen(false)
         setSearchTerm("")
         setStocks(initialStocks)
